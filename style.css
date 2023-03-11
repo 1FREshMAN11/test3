@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&amp;amp;amp;amp;amp;amp;display=swap');
+
+.headerInner{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    margin-left: 70px;
+}
+
+.menu{
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+body{
+    margin: 0;
+    font-family: Open Sans;
+    color: black;
+    background-color: #CACABF;
+}
+
+h1, p{
+    margin: 0;
+}
+
+P { text-align: center }
+H1 { text-align: center }
+
+p.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 60px;
+    font-size: 18px;
+}
+
+h1{
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+/* header */
+
+header{
+    padding-left: 70px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: black;
+}
+
+.header-inner{
+    display: flex;
+}
+
+.logoImg{
+    width: 261px;
+    height: 78px;
+    margin-right: 20px;
+}
+
+nav{
+    height: 122px;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+    list-style: none; /*убираем маркеры списка*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+}
+
+/* posters */
+
+.text{
+    margin-left: 270px;
+}
+
+.postersInner{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.movie{
+    width: 300px;
+}
+
+.poster{
+    width: 300px;
+}
+/* footer */
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+}
+.miniLogo{
+    width: 73px;
+    height: 43px;
+    float: left;
+    margin-right: 20px;
+}
+.textFooter {
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+}
+.footerP{
+    color: #504D4D;
+    font-weight: 900;
+}
+span{
+    color: red;
+    font-size: 28px;
+}
+
+.flex-container {
+    display: flex; /* flex || inline-flex */
+  }
+
+  .move:hover {
+      width: 400;
+      border-width: 5px;
+  }
